@@ -1,7 +1,6 @@
 {
   "projects": {
-    "default": "spotify-ed08a",
-    "spotify": "spotify-ed08a",
-    "trivia": "trivia-e31df"
+    "default": "makemyplaylist",
+    "playlist": "makemyplaylist"
   }
 }

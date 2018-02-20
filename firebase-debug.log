@@ -1,41 +1,41 @@
-[debug] [2018-02-20T11:33:48.117Z] ----------------------------------------------------------------------
-[debug] [2018-02-20T11:33:48.121Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\valen\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2018-02-20T11:33:48.121Z] CLI Version:   3.17.4
-[debug] [2018-02-20T11:33:48.122Z] Platform:      win32
-[debug] [2018-02-20T11:33:48.122Z] Node Version:  v8.9.4
-[debug] [2018-02-20T11:33:48.122Z] Time:          Tue Feb 20 2018 08:33:48 GMT-0300 (Hora verano Sudamérica Pacífico)
-[debug] [2018-02-20T11:33:48.122Z] ----------------------------------------------------------------------
+[debug] [2018-02-20T12:49:24.191Z] ----------------------------------------------------------------------
+[debug] [2018-02-20T12:49:24.194Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\valen\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-20T12:49:24.195Z] CLI Version:   3.17.4
+[debug] [2018-02-20T12:49:24.195Z] Platform:      win32
+[debug] [2018-02-20T12:49:24.195Z] Node Version:  v8.9.4
+[debug] [2018-02-20T12:49:24.195Z] Time:          Tue Feb 20 2018 09:49:24 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-02-20T12:49:24.195Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-02-20T11:33:48.145Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-02-20T11:33:48.146Z] > authorizing via signed-in user
-[debug] [2018-02-20T11:33:48.149Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-02-20T11:33:48.150Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2018-02-20T12:49:24.209Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-20T12:49:24.211Z] > authorizing via signed-in user
+[debug] [2018-02-20T12:49:24.213Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-20T12:49:24.213Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  { refresh_token: '1/Fe8nuyYceXd7a6XDBbjKlideNpwavNT3vMiccBLf2K4',
   client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
   client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
   grant_type: 'refresh_token',
   scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Tue Feb 20 2018 08:33:48 GMT-0300 (Hora verano Sudamérica Pacífico)
-[debug] [2018-02-20T11:33:48.454Z] <<< HTTP RESPONSE 200
-[debug] [2018-02-20T11:33:48.464Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/spotify-ed08a  
+ Tue Feb 20 2018 09:49:24 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-02-20T12:49:24.522Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-20T12:49:24.529Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/makemyplaylist  
   
- Tue Feb 20 2018 08:33:48 GMT-0300 (Hora verano Sudamérica Pacífico)
-[debug] [2018-02-20T11:33:49.619Z] <<< HTTP RESPONSE 200
-[debug] [2018-02-20T11:33:49.623Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/spotify-ed08a/tokens  
+ Tue Feb 20 2018 09:49:24 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-02-20T12:49:25.609Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-20T12:49:25.611Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/makemyplaylist/tokens  
   
- Tue Feb 20 2018 08:33:49 GMT-0300 (Hora verano Sudamérica Pacífico)
-[debug] [2018-02-20T11:33:50.499Z] <<< HTTP RESPONSE 200
+ Tue Feb 20 2018 09:49:25 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-02-20T12:49:27.603Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\Users\valen\OneDrive\Documentos\Laboratoria\Front-end\Spotify'...
 [info] 
-[debug] [2018-02-20T11:33:50.521Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/spotify-ed08a  
+[debug] [2018-02-20T12:49:27.613Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/makemyplaylist  
   
- Tue Feb 20 2018 08:33:50 GMT-0300 (Hora verano Sudamérica Pacífico)
-[debug] [2018-02-20T11:33:51.514Z] <<< HTTP RESPONSE 200
-[debug] [2018-02-20T11:33:51.515Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/928140613002/clients/_:getWebAppConfig  
+ Tue Feb 20 2018 09:49:27 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-02-20T12:49:28.603Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-20T12:49:28.604Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/154330672723/clients/_:getWebAppConfig  
   
- Tue Feb 20 2018 08:33:51 GMT-0300 (Hora verano Sudamérica Pacífico)
-[debug] [2018-02-20T11:33:52.280Z] <<< HTTP RESPONSE 200
+ Tue Feb 20 2018 09:49:28 GMT-0300 (Hora verano Sudamérica Pacífico)
+[debug] [2018-02-20T12:49:29.905Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: ./
 [info] +  hosting: Local server: http://localhost:5000
 
